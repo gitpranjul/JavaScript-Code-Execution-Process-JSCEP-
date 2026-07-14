@@ -1,5 +1,7 @@
 # JSCEP — JavaScript Code Execution Process
 
+![JSCEP- JavaScript Code Execution Process Image](https://github.com/gitpranjul/JavaScript-Code-Execution-Process-JSCEP-/blob/main/JSCEP-Ultimate.png)
+
 **A comprehensive visual architecture map of JavaScript internals** — covering the V8 engine pipeline, Browser Runtime, Node.js Runtime, Execution Context System, Memory Management, Event Loop, WebAssembly, and the full optimization lifecycle.
 
 📄 **[View the full diagram (SVG)](./JSCEP-Ultimate.svg)** &nbsp;|&nbsp; 🖱️ **[View interactive version (HTML)](./JSCEP-Ultimate.html)**
