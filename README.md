@@ -2,6 +2,7 @@
 
 ![JSCEP- JavaScript Code Execution Process Image](https://github.com/gitpranjul/JavaScript-Code-Execution-Process-JSCEP-/blob/main/JSCEP-Ultimate.png)
 
+
 ![ECMAScript](https://img.shields.io/badge/ECMAScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![V8](https://img.shields.io/badge/V8_Engine-4285F4?style=flat-square&logo=googlechrome&logoColor=white)
 ![Browser Runtime](https://img.shields.io/badge/Browser_Runtime-FF6F00?style=flat-square)
@@ -13,6 +14,8 @@
 **A comprehensive visual architecture map of JavaScript internals** — covering the V8 engine pipeline, Browser Runtime, Node.js Runtime, Execution Context System, Memory Management, Event Loop, WebAssembly, and the full optimization lifecycle.
 
 📄 **[View the full diagram (SVG)](./JSCEP-Ultimate.svg)**
+
+**![JSCEP](./JSCEP-Ultimate.png)**
 
 ---
 
