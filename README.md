@@ -18,9 +18,9 @@
 
 ## Why JSCEP?
 
-Most JavaScript diagrams explain one thing in isolation — the Event Loop, or the Call Stack, or the V8 pipeline. JSCEP is different: it's **one visual map of the complete JavaScript ecosystem**, showing how all the pieces connect —
+Most JavaScript diagrams explain one thing in isolation — the Event Loop, or the Call Stack, or the V8 pipeline. JSCEP is different: it's **one integrated architecture map of the JavaScript execution ecosystem**, showing how all the pieces connect —
 
-- Browser **and** Node.js runtimes, side by side
+- Browser **and** Node.js runtime architectures, side by side
 - V8 internals — parser, bytecode, JIT tiers, deoptimization
 - Execution Contexts, Environment Records, Scope Chains
 - Memory Management & Garbage Collection (Orinoco)
