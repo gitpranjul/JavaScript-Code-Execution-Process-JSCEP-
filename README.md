@@ -2,42 +2,54 @@
 
 ![JSCEP- JavaScript Code Execution Process Image](https://github.com/gitpranjul/JavaScript-Code-Execution-Process-JSCEP-/blob/main/JSCEP-Ultimate.png)
 
+![ECMAScript](https://img.shields.io/badge/ECMAScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![V8](https://img.shields.io/badge/V8_Engine-4285F4?style=flat-square&logo=googlechrome&logoColor=white)
+![Browser Runtime](https://img.shields.io/badge/Browser_Runtime-FF6F00?style=flat-square)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![WebAssembly](https://img.shields.io/badge/WebAssembly-654FF0?style=flat-square&logo=webassembly&logoColor=white)
+![SVG](https://img.shields.io/badge/Format-SVG-FFB13B?style=flat-square&logo=svg&logoColor=white)
+![Educational](https://img.shields.io/badge/Purpose-Educational-2ea44f?style=flat-square)
+
 **A comprehensive visual architecture map of JavaScript internals** — covering the V8 engine pipeline, Browser Runtime, Node.js Runtime, Execution Context System, Memory Management, Event Loop, WebAssembly, and the full optimization lifecycle.
 
-📄 **[View the full diagram (SVG)](./JSCEP-Ultimate.svg)** &nbsp;|&nbsp; 🖱️ **[View interactive version (HTML)](./JSCEP-Ultimate.html)**
+📄 **[View the full diagram (SVG)](https://github.com/gitpranjul/JavaScript-Code-Execution-Process-JSCEP-/blob/main/JSCEP-Ultimate.png)**
 
 ---
 
-## Overview
+## Why JSCEP?
 
-JSCEP is an educational and architectural visualization project that explains how JavaScript works — from source code to CPU execution.
+Most JavaScript diagrams explain one thing in isolation — the Event Loop, or the Call Stack, or the V8 pipeline. JSCEP is different: it's **one visual map of the complete JavaScript ecosystem**, showing how all the pieces connect —
 
-Unlike most JavaScript diagrams that focus only on the Event Loop or Call Stack, JSCEP provides a complete ecosystem view covering:
+- Browser **and** Node.js runtimes, side by side
+- V8 internals — parser, bytecode, JIT tiers, deoptimization
+- Execution Contexts, Environment Records, Scope Chains
+- Memory Management & Garbage Collection (Orinoco)
+- Event Loop, Microtasks, Macrotasks
+- Rendering Pipeline
+- WebAssembly
 
-- JavaScript Language Runtime
-- V8 Engine Internals
-- Browser Architecture
-- Node.js Runtime Architecture
-- Execution Context System
-- Memory Management & Garbage Collection
-- Event Loop & Queues
-- WebAssembly (WASM)
-- JIT Compilation Pipeline
-- Optimization / Deoptimization
-- Scope & Environment Records
+JSCEP is an educational and architectural visualization project that explains how JavaScript works — from source code to machine code execution. The goal is to help learners understand JavaScript as a **complete execution platform**, not a collection of isolated concepts.
 
-The goal is to help learners understand JavaScript as a **complete execution platform**, not a collection of isolated concepts.
+---
+
+## Who Is This For?
+
+- **Beginners** — get the big-picture overview of how JS actually runs
+- **Intermediate developers** — understand runtime behavior, async execution, memory
+- **Advanced developers** — dig into V8 internals, GC phases, rendering, execution context internals
+
+**What this project is *not*:**
+- Not a replacement for the ECMAScript specification
+- Not a browser engine implementation document
+- An educational architecture map with deliberate simplifications for learning clarity (see [Important Notes](#important-notes))
 
 ---
 
 ## How to View
 
-| File | Best for | Notes |
-|---|---|---|
-| [`JSCEP-Ultimate.svg`](./JSCEP-Ultimate.svg) | Recommended — fastest, works offline | Self-contained, opens directly in any browser |
-| [`JSCEP-Ultimate.html`](./JSCEP-Ultimate.html) | Interactive pan/zoom viewer | Requires internet (loads `diagrams.net` viewer script) |
+The diagram is provided as a single self-contained SVG file — [`JSCEP-Ultimate.svg`](./JSCEP-Ultimate.svg).
 
-For the best experience, download `JSCEP-Ultimate.svg` and open it in your browser, or zoom directly on GitHub's file preview.
+For the best experience, download it and open it in your browser (works fully offline), or use GitHub's built-in file preview and zoom in directly.
 
 ---
 
@@ -56,7 +68,9 @@ Memory Management
       ↓
 Browser / Node Runtime
       ↓
-CPU Execution
+Machine Code
+      ↓
+CPU Instruction Execution
 ```
 
 ---
@@ -268,18 +282,6 @@ Supported runtime models: Browser, Node.js, Bun, Deno.
 
 ---
 
-## Intended Audience
-
-- JavaScript learners
-- Frontend & backend developers
-- Full-stack engineers
-- Computer science students
-- Runtime internals enthusiasts
-- V8 engine learners
-- Technical interview preparation
-
----
-
 ## Important Notes
 
 JSCEP is an educational architecture model. Some sections intentionally simplify engine implementation details for learning clarity — for example, execution context visualization, environment record representation, memory layout models, and heap simplification.
@@ -308,4 +310,4 @@ Educational and Research Use.
 
 **Pranjul Mishra**
 *JSCEP — JavaScript Code Execution Process*
-Understanding JavaScript from Source Code to CPU Execution.
+Understanding JavaScript from Source Code to Machine Code Execution.
