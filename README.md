@@ -34,10 +34,10 @@ JSCEP is an educational and architectural visualization project that explains ho
 
 ## Who Is This For?
 
-**Beginners** — who've covered JS fundamentals — a next-level map once basic syntax feels comfortable
-**Intermediate developers** — understand runtime behavior, async execution, memory
-**Advanced developers** — dig into V8 internals, GC phases, rendering, execution context internals
-**Educators & course creators** — use it as a reference while teaching individual topics, or as a completeness checklist when structuring a course, to make sure no major runtime concept gets missed.
+- **Beginners** — who've covered JS fundamentals — a next-level map once basic syntax feels comfortable
+- **Intermediate developers** — understand runtime behavior, async execution, memory
+- **Advanced developers** — dig into V8 internals, GC phases, rendering, execution context internals
+- **Educators & course creators** — use it as a reference while teaching individual topics, or as a completeness checklist when structuring a course, to make sure no major runtime concept gets missed.
 
 **What this project is *not*:**
 - Not a replacement for the ECMAScript specification
